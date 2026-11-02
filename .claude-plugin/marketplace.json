@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gale-finance",
+  "description": "Gale Finance plugins for Claude Code.",
+  "owner": {
+    "name": "Gale Finance",
+    "email": "hello@gale.finance"
+  },
+  "plugins": [
+    {
+      "name": "gale-finance",
+      "description": "Risk and return metrics for stocks, ETFs, crypto and commodities from Gale Finance, with citable sources. Read-only, no API key.",
+      "author": {
+        "name": "Gale Finance"
+      },
+      "category": "finance",
+      "source": "./",
+      "homepage": "https://www.gale.finance/tools/mcp/"
+    }
+  ]
+}

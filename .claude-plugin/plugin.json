@@ -1,0 +1,25 @@
+{
+  "name": "gale-finance",
+  "version": "1.0.0",
+  "description": "Risk and return metrics for stocks, ETFs, crypto and commodities from Gale Finance: Sharpe, Sortino, volatility, drawdowns, tail risk and long-term comparisons, each with a citable source page. Read-only, no API key.",
+  "author": {
+    "name": "Gale Finance",
+    "email": "hello@gale.finance",
+    "url": "https://www.gale.finance/"
+  },
+  "homepage": "https://www.gale.finance/tools/mcp/",
+  "repository": "https://github.com/sidko/gale-finance-mcp",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "finance",
+    "investing",
+    "risk",
+    "sharpe-ratio",
+    "sortino-ratio",
+    "crypto",
+    "stocks",
+    "etf",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://www.gale.finance/privacy/"
+}

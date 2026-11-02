@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gale-finance": {
+      "type": "http",
+      "url": "https://www.gale.finance/mcp"
+    }
+  }
+}
