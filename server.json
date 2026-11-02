@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "finance.gale/market-metrics",
+  "title": "Gale Finance",
+  "description": "Risk and return metrics for stocks, ETFs, crypto and commodities, with citable Gale Finance sources.",
+  "repository": {
+    "url": "https://github.com/sidko/gale-finance-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://www.gale.finance/tools/mcp/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.gale.finance/mcp"
+    }
+  ]
+}
