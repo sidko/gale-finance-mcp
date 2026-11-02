@@ -75,7 +75,7 @@ ends with a source line naming the Gale page and the date the data runs through.
 
 ## Data and methodology
 
-- **Coverage:** about 200 assets across US stocks, ETFs, crypto and
+- **Coverage:** about 200 assets across stocks, ETFs, crypto and
   commodities, with several hundred published pair comparisons and long-term
   scorecards.
 - **Freshness:** the server serves the same figures as the published site and
