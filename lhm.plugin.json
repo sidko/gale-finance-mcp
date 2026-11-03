@@ -1,0 +1,42 @@
+{
+  "identifier": "sidko-gale-finance-mcp",
+  "name": "Gale Finance",
+  "version": "1.0.0",
+  "description": "Risk and return metrics for stocks, ETFs, crypto and commodities, for AI agents. Look up Sharpe and Sortino ratios, volatility, drawdowns, tail risk and long-term head-to-head comparisons. Read-only, no API key; every answer links back to gale.finance.",
+  "author": "Gale Finance",
+  "authorUrl": "https://www.gale.finance/",
+  "homepage": "https://www.gale.finance/tools/mcp/",
+  "cloudEndpoint": "https://www.gale.finance/mcp",
+  "icon": "https://www.gale.finance/logo/mark-512.png",
+  "tags": [
+    "finance",
+    "investing",
+    "risk-metrics",
+    "sharpe-ratio",
+    "crypto",
+    "stocks",
+    "etf"
+  ],
+  "tools": [
+    {
+      "name": "get_risk_return_metrics",
+      "description": "Gale Finance's published return, CAGR, volatility, Sharpe, Sortino and max drawdown for one asset (stock, ETF, crypto, or commodity), on its 1Y window and its long window (5Y or since inception), each with a one-line method note and the canonical Gale page to cite. Example: \"What's the Sortino ratio of gold?\". Computed metrics only; no prices."
+    },
+    {
+      "name": "get_downside_risk",
+      "description": "Gale Finance's published downside risk for one asset: daily 5% VaR, expected shortfall, skew and excess kurtosis, the largest drawdown episodes with peak/trough/recovery dates, 1Y max drawdown, and best/worst day from a published compare page. Example: \"What are the tail risks for bitcoin?\"."
+    },
+    {
+      "name": "compare_assets",
+      "description": "Compare two assets using Gale Finance's published pair pages: the rolling 1Y compare (default), a calendar-year compare (horizon \"2024\"), or the long-term scorecard with year-by-year returns (horizon \"long_term\"). Pairs resolve in either order and keep the cited page's A/B labels. When Gale has no pair page, returns each asset's own metrics side by side and says pair figures are not published. Example: \"How has gold performed vs bitcoin historically?\"."
+    },
+    {
+      "name": "rank_assets_by_metric",
+      "description": "Rank the assets Gale Finance covers by one published metric (return, cagr, volatility, sharpe, sortino, max_drawdown, var_5, es_5, skew, excess_kurtosis), optionally filtered by asset type. Each row carries its value, window dates, and Gale page. Example: \"Which crypto had the best Sharpe last year?\"."
+    },
+    {
+      "name": "find_assets",
+      "description": "Search the assets Gale Finance covers by ticker or name and list, for each, its asset page and the published pair comparisons, calendar-year pages, and long-term scorecards. Omit query to page through all coverage. Example: \"Do you cover Hyperliquid?\"."
+    }
+  ]
+}
