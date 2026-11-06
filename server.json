@@ -5,14 +5,14 @@
   "description": "Risk and return metrics for stocks, ETFs, crypto and commodities, with citable Gale Finance sources.",
   "icons": [
     {
-      "src": "https://www.gale.finance/android-chrome-512x512.png",
+      "src": "https://www.gale.finance/logo/mark-512.png",
       "mimeType": "image/png",
       "sizes": [
         "512x512"
       ]
     },
     {
-      "src": "https://www.gale.finance/favicon.svg",
+      "src": "https://www.gale.finance/logo/mark-color.svg",
       "mimeType": "image/svg+xml",
       "sizes": [
         "any"
@@ -23,7 +23,7 @@
     "url": "https://github.com/sidko/gale-finance-mcp",
     "source": "github"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://www.gale.finance/tools/mcp/",
   "remotes": [
     {
